@@ -135,7 +135,7 @@ export default class Presentation extends React.Component {
         >
           <Image
             height={700}
-            src="./assets/myPhotos/meTeaching.jpg"
+            src="./assets/photos/meTeaching.jpg"
           />
         </Slide>
 
