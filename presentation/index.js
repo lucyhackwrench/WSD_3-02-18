@@ -101,7 +101,7 @@ export default class Presentation extends React.Component {
               top: '20%',
               left: '10%',
               color: 'fff',
-              textAlign: 'left' ,
+              textAlign: 'left',
               padding: '25px',
               border: '1px solid #fff'
             }}>
@@ -148,6 +148,15 @@ export default class Presentation extends React.Component {
             height={500}
             src="./assets/images/mem.jpg"
           />
+        </Slide>
+        <Slide>
+          <div style={{ maxWidth: '80%', margin: '0 auto', fontSize: '30px', lineHeight: '40px' }}>
+            Мы сервис <span style={{ background: 'yellow' }}>по уборке</span> квартир.<br />
+            Ищем front-end разработчика.<br />
+            У нас тебя ждут обширные и интересные задачи<br />
+            <span style={{ background: 'yellow' }}>от нейросетей до блокчейна</span>,<br />
+            участие в профильных конференциях.
+          </div>
         </Slide>
 
         {/* MCS */}
@@ -273,14 +282,14 @@ export default class Presentation extends React.Component {
         {/* github */}
         <Slide>
           <Layout>
-            <div style={{ width: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div style={{ boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Image
                 src="./assets/images/metoda.png"
                 height={"500px"}
               >
               </Image>
             </div>
-            <div style={{ width: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div style={{ boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               <Image
                 src="./assets/images/metoda1.png"
                 height={"500px"}
@@ -319,10 +328,10 @@ export default class Presentation extends React.Component {
                 <ListItem>Основные понятия</ListItem>
               </div>
               <div style={{ marginBottom: '20px' }}>
-                <ListItem>Принципы работы браузера, frontend и backend</ListItem>
+                <ListItem>Принципы работы браузера, фронтенд и бэкенд</ListItem>
               </div>
               <div style={{ marginBottom: '20px' }}>
-                <ListItem>devtools</ListItem>
+                <ListItem>DevTools</ListItem>
               </div>
               <div style={{ marginBottom: '20px' }}>
                 <ListItem>IDE</ListItem>
@@ -331,7 +340,7 @@ export default class Presentation extends React.Component {
                 <ListItem>VCS</ListItem>
               </div>
               <div style={{ marginBottom: '20px' }}>
-                <ListItem>Github</ListItem>
+                <ListItem>GitHub</ListItem>
               </div>
             </List>
           </div>
@@ -346,7 +355,7 @@ export default class Presentation extends React.Component {
           <div style={{ maxWidth: '50%', margin: '0 auto', fontSize: '30px' }}>
             <List textColor="#fff">
               <div style={{ marginBottom: '20px' }}>
-                <ListItem>Основные понятия</ListItem>
+                <ListItem>Структура документа</ListItem>
               </div>
               <div style={{ marginBottom: '20px' }}>
                 <ListItem>Теги и атрибуты</ListItem>
@@ -405,8 +414,7 @@ export default class Presentation extends React.Component {
               <Quote>
                 <Text margin="15px 0 0" textColor="primary">
                   <div style={{ fontSize: '30px', lineHeight: '40px' }}>
-                    Cтрашно приступить к его изучению. Казалось,
-                    что не получится, что все это очень сложно, и еще находилось очень много разных других причин.
+                    Cтрашно приступить к его изучению. Казалось, что не получится, что все это очень сложно, и еще находилось очень много разных других причин.
                   </div>
                 </Text>
               </Quote>
@@ -494,6 +502,12 @@ export default class Presentation extends React.Component {
         >
         </Slide>
         <Slide
+          bgImage="./assets/images/kahoot.jpg"
+          bgPosition={'center'}
+          bgRepeat={'no-repeat'}
+        >
+        </Slide>
+        <Slide
           transition={["slide", "fade"]}
           bgImage="https://3.downloader.disk.yandex.ru/preview/21a9384d3319039e53a459d44de35896816642b50be7bd418f93967e5a13987b/inf/qjtMMnUZb8D4fgYO-r2NlwZj2kpxsD9mmbtSQaJ78zqaE9EoYsjJ47Ed1x2NVLOoWWpBXfH0sdn3-Fwai0tRpg%3D%3D?uid=0&filename=coding_school_0052.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&tknv=v2&size=1180x575"
         ></Slide>
@@ -545,16 +559,16 @@ export default class Presentation extends React.Component {
         </Slide>
 
         {/* demos */}
-        <Slide>
+        <Slide bgColor={"#00f"}>
           <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-            <div style={{ boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '300px', padding: '50px', display: 'flex' }}>
+            <div style={{ background: '#fff', boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '300px', padding: '50px', display: 'flex' }}>
               <div style={{ padding: '20px', boxShadow: '0 1px 3px rgba(0,0,0,.4)', border: '1px solid lightgray', margin: 'auto', position: 'relative' }}>
                 <img src="./assets/images/smile.png" width="100" alt="" style={{ display: 'block', margin: '0 auto 10px' }} />
                 <div style={{ fontStyle: 'italic' }}>I am popup</div>
                 <div style={{ position: 'absolute', color: 'gray', top: '-10px', right: '-30px', fontSize: '30px' }}>&times;</div>
               </div>
             </div>
-            <div style={{ boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '600px', padding: '50px' }}>
+            <div style={{ background: '#fff', boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '600px', padding: '50px' }}>
               <div style={{ animation: `${keyFrameCloud} 2s infinite ease`, width: '200px', height: '200px' }}>
                 <div style={{ width: '100px', height: '100px', position: 'absolute', background: 'blue', borderRadius: '50px', left: '0', top: '50px' }}></div>
                 <div style={{ width: '100px', height: '100px', position: 'absolute', background: 'blue', borderRadius: '50px', left: '50px', top: '0' }}></div>
@@ -562,7 +576,7 @@ export default class Presentation extends React.Component {
                 <div style={{ width: '100px', height: '100px', position: 'absolute', background: 'blue', borderRadius: '50px', left: '35px', top: '50px' }}></div>
               </div>
             </div>
-            <div style={{ boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '300px', padding: '50px', display: 'flex' }}>
+            <div style={{ background: '#fff', boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', width: '300px', padding: '50px', display: 'flex' }}>
               <div style={{ width: '200px', height: '200px', background: 'green', margin: 'auto', position: 'relative' }}>
                 <div style={{ background: 'lightblue', width: '100px', height: '100px', borderRadius: '50px', position: 'absolute', top: '0', left: '0' }}></div>
                 <div style={{ background: 'lightblue', width: '100px', height: '100px', borderRadius: '50px', position: 'absolute', bottom: '0', left: '0' }}></div>
@@ -573,7 +587,7 @@ export default class Presentation extends React.Component {
             </div>
           </div>
 
-          <div style={{ boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', padding: '50px', margin: '20px', display: 'flex', justifyContent: 'space-around' }}>
+          <div style={{ background: '#fff', boxShadow: '4px 4px 10px 1px rgba(0,0,0,0.4)', padding: '50px', margin: '20px', display: 'flex', justifyContent: 'space-around' }}>
             <div style={{ width: '300px', height: '300px', background: 'url(./assets/images/jdun.png) top center no-repeat', backgroundSize: 'contain', animation: `${jdunX} 2s infinite linear` }}></div>
             <div style={{ width: '300px', height: '300px', background: 'url(./assets/images/jdun.png) top center no-repeat', backgroundSize: 'contain', animation: `${jdunY} 2s infinite linear` }}></div>
             <div style={{ width: '300px', height: '300px', background: 'url(./assets/images/jdun.png) top center no-repeat', backgroundSize: 'contain', animation: `${jdunZ} 2s infinite linear` }}></div>
@@ -648,7 +662,7 @@ export default class Presentation extends React.Component {
           <div style={{ maxWidth: '50%', margin: '0 auto', fontSize: '30px' }}>
             <List textColor="#fff">
               <div style={{ marginBottom: '20px' }}>
-                <ListItem>Публикация своего проекта на гитхабе</ListItem>
+                <ListItem>Публикация своего проекта на GitHub</ListItem>
               </div>
               <div style={{ marginBottom: '20px' }}>
                 <ListItem>Работа с ветками</ListItem>
@@ -790,7 +804,7 @@ export default class Presentation extends React.Component {
           <div style={{ maxWidth: '50%', margin: '0 auto', textAlign: 'left' }}>
             <Quote>
               <Text margin="15px 0 0" textColor="primary" textSize={'30px'} lineHeight={1.5}>
-                Не важно, как медленно вы идете, до тех пор, пока вы не остановитесь.
+                Не важно, как медленно вы идете, до тех пор, пока вы не остановитесь.
               </Text>
             </Quote>
           </div>
@@ -807,7 +821,7 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide transition={["slide", "fade"]} bgColor="#fff" textColor="primary">
-          <Heading size={3} textColor="#1A237E" caps>Разная мотвация</Heading>
+          <Heading size={3} textColor="#1A237E" caps>Разная мотивация</Heading>
           <div height="20px"></div>
           <Image
             src="./assets/images/motivation.png"
@@ -831,8 +845,7 @@ export default class Presentation extends React.Component {
               <Quote>
                 <Text margin="15px 0 0" textColor="primary">
                   <div style={{ fontSize: '30px', lineHeight: '40px' }}>
-                    Всегда хотела научиться, но мысль о просиживании часов вместе с учебником, компом и кучей незнакомых терминов
-                    приводило меня в уныние.
+                    Всегда хотела научиться, но мысль о просиживании часов вместе с учебником, компом и кучей незнакомых терминов приводило меня в уныние.
                   </div>
                 </Text>
               </Quote>
@@ -952,8 +965,7 @@ export default class Presentation extends React.Component {
               <Quote>
                 <Text margin="15px 0 0" textColor="primary">
                   <div style={{ fontSize: '30px', lineHeight: '40px' }}>
-                    В моей работе необходимо понимать, о чем общаться с кандидатами,
-                    что они рассказывают и вообще быть в теме.
+                    В моей работе необходимо понимать, о чем общаться с кандидатами, что они рассказывают и вообще быть в теме.
                   </div>
                 </Text>
               </Quote>
@@ -986,6 +998,7 @@ export default class Presentation extends React.Component {
             <List>
               <ListItem>Джули Дирксен &laquo;Искусство обучать&raquo;</ListItem>
               <ListItem>Саймон Хартли &laquo;А у меня получится?&raquo;</ListItem>
+              <ListItem><a href="https://kahoot.it/">Kahoot!</a></ListItem>
               <ListItem>Презентация</ListItem>
               <ListItem><a href="https://github.com/FormidableLabs/spectacle">github.com/FormidableLabs/spectacle</a></ListItem>
               <ListItem>Слайды в pdf</ListItem>
