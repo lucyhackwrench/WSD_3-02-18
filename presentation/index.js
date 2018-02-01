@@ -999,9 +999,8 @@ export default class Presentation extends React.Component {
               <ListItem>Джули Дирксен &laquo;Искусство обучать&raquo;</ListItem>
               <ListItem>Саймон Хартли &laquo;А у меня получится?&raquo;</ListItem>
               <ListItem><a href="https://kahoot.it/">Kahoot!</a></ListItem>
-              <ListItem>Презентация</ListItem>
+              <ListItem><a href="https://lucyhackwrench.github.io/WSD_3-02-18/index.html">Презентация</a></ListItem>
               <ListItem><a href="https://github.com/FormidableLabs/spectacle">github.com/FormidableLabs/spectacle</a></ListItem>
-              <ListItem>Слайды в pdf</ListItem>
               <ListItem><a href="https://moscoding.ru/">moscoding.ru</a></ListItem>
               <ListItem>
                   FB / <a href="https://www.facebook.com/profile.php?id=100009479826265">lucyhackwrench</a>
