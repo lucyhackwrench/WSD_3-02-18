@@ -1,5 +1,5 @@
 # WSD_3-02-18
-Presentation for web standarts meetup
+Presentation for Web Standards Days
 
 
 Фронтед-ликбез
